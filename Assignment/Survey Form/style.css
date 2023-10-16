@@ -1,0 +1,44 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(127, 200, 255);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: white;
+    padding: 50px;
+}
+#firstName,#lastName{
+    padding-left: 33px;
+}
+#L,#C{
+    padding-left:120px;
+}
+#dob,#country{
+    padding-left: 88px;
+}
+
+#submitBtn{
+    background-color: rgb(127, 200, 255) ;
+    color: white;
+    font-weight: bold;
+    padding:5px 20px ;
+}
+#resetBtn{
+    background-color: rgb(202, 174, 174);
+    font-weight: bold;
+}
+
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
